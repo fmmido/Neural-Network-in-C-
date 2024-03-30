@@ -56,6 +56,7 @@ public:
     }
 
     std::vector<double> feedforward(const std::vector<double>& inputs) {
+        
         // Calculate hidden layer output
         std::vector<double> hiddenOutput(hiddenSize);
         for (int i = 0; i < hiddenSize; ++i) {
