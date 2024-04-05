@@ -29,6 +29,7 @@ public:
         initializeBiases(biasHiddenOutput);
     }
 
+
     void initializeWeights(std::vector<std::vector<double>>& weights) {
         for (auto& row : weights) {
             for (double& weight : row) {
